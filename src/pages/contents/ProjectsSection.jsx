@@ -29,7 +29,7 @@ export default function ProjectsSection() {
     "POS-system-for-computer-parts-shop": PosThumb,
   };
 
-  const exclude = ["bakaraw", "fcb_portfolio", "pokedex", "ml_notes"];
+  const exclude = ["bakaraw", "fcb_portfolio", "pokedex", "ml_notes", "my-portfolio"];
   useEffect(() => {
     fetch("https://api.github.com/users/bakaraw/repos")
       .then((res) => res.json())
